@@ -15,3 +15,60 @@ int main() {
     else
         cout << "Not a Palindrome Number";
     return 0;
+-------------------------------------------------------------------------------------------------------
+
+#include<iostream>
+int main(){
+cin >> d ;
+int step ;
+step = d / 5;
+if ( d%5 == 0)
+cout<< step;
+else 
+cout<< step +1;
+}
+--------------------------------------------------------------------------------------------------
+
+# include <iostream>
+int main ()
+{
+cin >> num ;
+if (num % 3 == 0 )
+cout <<" B win  ";
+else  cout<<"A WIN" ;
+}
+----------------------------------------------------------------------------------------
+
+# include<iostream>
+int main (){
+int a [5] ;
+ 
+for(i = 0 ; i<5 ; i++){
+cin >> a[i] ;
+}
+for (int i = 0 ; i <5 ; i++){
+cout<< a[i];
+}
+........................................................................................
+  sum of all values 
+#include<>iostreaa>
+int mian () {
+int sum = 0;
+int [a] ;
+for (int i = 0 ; i <5 ; i++){
+sum += a[i] ;
+} 
+cout<< sum ; 
+}
+........................................................................
+#include <iostream>
+int main (){
+int sum =0 ;
+int [a] ;
+for (int i = 0 ; i <5 ; i++){
+sum += a[i] ;
+
+} 
+avg = sum /s;
+cout<< avg ;
+}
